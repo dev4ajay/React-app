@@ -20,7 +20,11 @@ console.log(Name);
 // Symbol  
 
 
-console.table([typeof "Ajay" , typeof 123 , typeof null , typeof undefined , typeof true]);
+//   *****  Non Prmitive ***** ///
+
+// Array , Object , function
+
+// console.table([typeof "Ajay" , typeof 123 , typeof null , typeof undefined , typeof true]);
 
 // let A = 33
 
@@ -58,3 +62,59 @@ console.table([typeof "Ajay" , typeof 123 , typeof null , typeof undefined , typ
 // console.table([typeof Y , Y]);
 
 
+// ***** Operations *******   ///
+
+// console.log( 2 + 2);
+// console.log( 2 % 2);
+// console.log( 2 * 2);
+// console.log( 2 ** 2);
+// console.log( 2 / 2);
+// console.log( 2 - 2);
+
+// console.table(["2" , 1 + "2" , "2" + 1 + 1 , "4" + 2 + 2 + 1 , 4 + "2" + "2"])
+
+// ==  value check 
+//***** / ===  value and data check *** //
+// console.table(["2" == 2 , "2" === 2] );
+
+// console.table([2 < 1 , 3 < 2]);
+
+
+////  No Prmitive  
+
+// const  str = ["a" ,"b" ,"c" ,"d"]
+
+// const num = {
+//     name:"Ajay" ,Age: 23 
+
+// }
+
+// const funMY = () =>{
+//     console.log("Hello ");
+// }
+
+// console.table([typeof  str ,typeof num , typeof funMY])
+
+
+// const num = new String("Ajay Kumar")
+
+// console.log(num.toLocaleUpperCase());
+
+// // const str  = num.substring(0,6)
+// // console.log(str);
+
+// // const str2 = num.slice(-8 , 4);
+// // console.log(str2);
+
+// const url = "https://www.google.com/Ajay%20Kumar";
+// const Num = url.replace("%20" , "-" )
+// console.log(Num);
+
+// console.log(url.includes("google"));
+
+// const numm = new Date("14-01-2023");
+
+// console.log(numm.toLocaleString());
+
+// const num = new  Date();
+// console.log(num.getMonth());
